@@ -1,7 +1,7 @@
 {
-	"name": "@mmstudio/web",
+	"name": "@mmstudio/nodejs",
 	"version": "1.0.202004171038",
-	"description": "web frame work",
+	"description": "web frame work(server side)",
 	"scripts": {
 		"test": "npm run build",
 		"watch": "tsc -w",
@@ -9,8 +9,7 @@
 		"lint": "eslint ./src/**/*.ts",
 		"compile-amd": "tsc -m amd -d false --outFile ./dist/main.js",
 		"compile-cjs": "tsc -m commonjs",
-		"compile-esm": "tsc -d false --outDir ./dist/esm/",
-		"compile": "npm run compile-esm && npm run compile-amd && npm run compile-cjs",
+		"compile": "npm run compile-amd && npm run compile-cjs",
 		"build": "npm run clean && npm run lint && npm run compile",
 		"up": "git pull git@github.com:mm-core/base.git amd"
 	},

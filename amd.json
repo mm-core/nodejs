@@ -1,7 +1,7 @@
 [
 	{
-		"name": "@mmstudio/web",
-		"location": "@mmstudio/web/dist",
+		"name": "@mmstudio/nodejs",
+		"location": "@mmstudio/nodejs/dist",
 		"main": "main"
 	},
 	{
