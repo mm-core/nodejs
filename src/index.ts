@@ -1,2 +1,2 @@
-export { default as np } from './n-page';
-export { default as nc } from './n-component';
+export { default as page } from './n-page';
+export { default as component } from './n-component';
